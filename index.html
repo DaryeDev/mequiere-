@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <title>Hello from Electron renderer!</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./speechBubble.css">
+</head>
+
+<body>
+    <div id="qqsm">
+        <div class="qqsmQuestion"></div>
+        <div class="qqsmOption qqsmOptionA"></div>
+        <div class="qqsmOption qqsmOptionB"></div>
+        <div class="qqsmOption qqsmOptionC"></div>
+        <div class="qqsmOption qqsmOptionD"></div>
+        <img src="./assets/qqsm.png" id="qqsmBg" alt="">
+    </div>
+    <div id="speechBubble" speech-bubble pbottom aright></div>
+    <div id="person">
+        <img src="./assets/istockphoto-931133838-2048x2048.jpg" alt="">
+    </div>
+</body>
+<!-- <script src="./renderer.js"></script> -->
+<script src="./animation.js"></script>
+
+</html>
